@@ -42,7 +42,7 @@ textarea {
 .header {
     height: 160px;
     padding: 20px;
-    background-image: url('/img/veiculos.jpg');
+    background-image: url('../img/veiculos.jpg');
     background-size: cover; /* faz a imagem cobrir toda a área da div */
     background-position: center center;
     background-repeat: no-repeat;
