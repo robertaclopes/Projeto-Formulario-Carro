@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Venda seu carro</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/limparFormulario.js"></script>
   </head>
   <body>
     <div class = "container">
@@ -102,6 +103,7 @@
             <input type="file" multiple id="images" name="images" accept="image/png, image/jpg" required/>
            </div>
           <input type="submit" value="Enviar" class="btn-submit"/>
+          <button type="button" class="btn-clear" onclick="limparFormulario()">Limpar</button>
          </form>
         </div>
       </div>
